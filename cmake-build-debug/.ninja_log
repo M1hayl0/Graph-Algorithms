@@ -1,0 +1,8 @@
+# ninja log v5
+16	1093	6929736397721052	CMakeFiles/Domaci.dir/Graf.cpp.obj	6327c850860e0518
+5	684	6929737258301663	CMakeFiles/Domaci.dir/main.cpp.obj	bf55adac93c5025d
+684	797	6929737259393449	Domaci.exe	a479fdd38f839c34
+1	247	7244590657017447	build.ninja	b807d3d444a4d7e
+2	566	7244594486039679	CMakeFiles/Domaci.dir/main.cpp.obj	5a2419a9c8a77a37
+6	574	7244594486114806	CMakeFiles/Domaci.dir/Graf.cpp.obj	4db3a658bf7905db
+574	690	7244594487252163	Domaci.exe	a479fdd38f839c34
