@@ -78,7 +78,8 @@ void Graf::dodavanjeCvora(const string& s) {
     for (int i = 0; i < brojCvorova; i++) {
         noveGrane[i] = new double[brojCvorova];
         for (int j = 0; j < brojCvorova; j++) {
-            if (i == brojCvorova - 1 || j == brojCvorova - 1) noveGrane[i][j] = INFINITY;
+            if (i == brojCvorova - 1 && j == brojCvorova - 1) noveGrane[i][j] = 0;
+            else if (i == brojCvorova - 1 || j == brojCvorova - 1) noveGrane[i][j] = INFINITY;
             else noveGrane[i][j] = grane[i][j];
         }
     }
