@@ -203,7 +203,7 @@ void Graf::nalazenjeNajslicnijihReci(const string& rec, int& brojNajslicnijihRec
 
             for (int j = 0; j < brojCvorova; j++) {
                 if (!poseceniCvorovi[j] && slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] != INFINITY && ((slicnostSaOstalimRecima[j] != INFINITY &&
-                                                                                                                                             slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] > slicnostSaOstalimRecima[j]) || slicnostSaOstalimRecima[j] == INFINITY)) {
+                        slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] > slicnostSaOstalimRecima[j]) || slicnostSaOstalimRecima[j] == INFINITY)) {
                     slicnostSaOstalimRecima[j] = slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j];
                 }
             }
@@ -283,7 +283,7 @@ void Graf::najkraciPutIzmedjuDveReci(const string& rec1, const string& rec2) {
 
             for (int j = 0; j < brojCvorova; j++) {
                 if (!poseceniCvorovi[j] && slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] != INFINITY && ((slicnostSaOstalimRecima[j] != INFINITY &&
-                                                                                                                                             slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] > slicnostSaOstalimRecima[j]) || slicnostSaOstalimRecima[j] == INFINITY)) {
+                        slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j] > slicnostSaOstalimRecima[j]) || slicnostSaOstalimRecima[j] == INFINITY)) {
                     slicnostSaOstalimRecima[j] = slicnostSaOstalimRecima[pozicijaMaksSlicnosti] * grane[pozicijaMaksSlicnosti][j];
                     rekonstrukcijaPuta[j] = pozicijaMaksSlicnosti;
                 }
